@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        form > label {text-align: right;}
+        
+    </style>
+</head>
+<body>
+    
+    <div class="a1" >
+        <div class="a4">
+            <h2 class="l1">اضافة مستخدم جديد</h2>
+        </div>
+        <form action="regproc.php" method="POST">
+            <label > الاسم الشخصي</label>
+            <br>
+            <input type="text" name="username" placeholder="username" class="a2"  >
+            <br><br>
+            <label > كلمة السر</label>
+            <br>
+            <input type="password" name="password" class="a2">
+            <br><br>
+            <label > تأكيد كلمة السر</label>
+            <br>
+            <input type="password" name="re-password" class="a2">
+            <br><br>
+            <label>الايميل</label>
+            <br>
+            <input type="email" name="email"  placeholder="example@example.com" class="a2">
+            <br><br>
+            
+            <input type="submit" name="reg" value="ارسال"  class="a3">
+        </form>
+        <br>
+        <a href="login.html">لدي حساب</a>
+    </div>
+</body>
+</html>
